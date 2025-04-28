@@ -20,4 +20,8 @@ Se uso el siguiente circuito en la protoboard
 
 A continuacion se listan las diferentes especificaciones tecnicas de la compuerta
 
-
+* El V<sub>CC</sub> Para la compuerta es de minimo 4.75 V y maximo 5.25 V
+* El V<sub>IH</sub> debe ser de minimo 2 V
+* El V<sub>IL</sub> debe ser de maximo 0.8 V
+* La corriente de salida en alto (I<sub>OH</sub>) de ser de -0.4 mA
+* I<sub>OL</sub> 8 mA
