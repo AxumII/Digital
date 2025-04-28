@@ -12,5 +12,6 @@ Para esta practica se uso la  compuerta SN74LS00N, Osciloscopio , Generador de s
 
 ![hola](/Lab01/Imagenes/Pin_out_SN74LS00N.jpg)
 
-![jola](/Lab01/Imagenes/Circuito_en_la_protoboard.jpg)
+<img src="ciruito_en_la_protoboard.jpg" alt="drawing" width="200"/>
+
 
