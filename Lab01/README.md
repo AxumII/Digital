@@ -14,7 +14,7 @@ Para esta practica se uso la  compuerta SN74LS00N, Osciloscopio , Generador de s
 
 Se uso el siguiente circuito en la protoboard
 
-<img src="/Lab01/Imagenes/Circuito_en_la_protoboard.jpg" alt="Alt text" width = "200px" height = "400px"/>
+<img src="/Lab01/Imagenes/Circuito_en_la_protoboard.jpg" alt="Alt text" width = "200px" height = "200px"/>
 
 ## Resultados
 
