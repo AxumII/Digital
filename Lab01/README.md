@@ -11,7 +11,7 @@
 Para esta practica se uso la  compuerta SN74LS00N, Osciloscopio , Generador de señales, un multimetro y una fuente de alimentacion DC a 5V para alimentar la compuerta.
 
 <div align="center">
-<img src="/Lab01/Imagenes/Pin_out_SN74LS00N.jpg" alt ="pin out" width = "400px" height = "auto">
+<img src="/Lab01/Imagenes/Pin_out_SN74LS00N.jpg" alt ="pin out" width = "200px" height = "auto">
 </div>
 Se uso el siguiente circuito en la protoboard
 
