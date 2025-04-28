@@ -24,4 +24,8 @@ A continuacion se listan las diferentes especificaciones tecnicas de la compuert
 * El V<sub>IH</sub> debe ser de minimo 2 V
 * El V<sub>IL</sub> debe ser de maximo 0.8 V
 * La corriente de salida en alto (I<sub>OH</sub>) de ser de -0.4 mA
-* I<sub>OL</sub> 8 mA
+* I<sub>OL</sub> ha de ser maximo 8 mA
+* El V<sub>OH</sub> el minimo es de 2.5V y el TYP de 3.4V
+* El V<sub>OL</sub> debe ser maximo de 0.4 V
+* La I<sub>I</sub> debe ser de maximo 1 mA
+* I<sub>IH</sub> debe ser de maximo 40 $\mu$ A
