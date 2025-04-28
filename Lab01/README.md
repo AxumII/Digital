@@ -10,12 +10,14 @@
 
 Para esta practica se uso la  compuerta SN74LS00N, Osciloscopio , Generador de señales, un multimetro y una fuente de alimentacion DC a 5V para alimentar la compuerta.
 
-![Pin out compuerta](/Lab01/Imagenes/Pin_out_SN74LS00N.jpg)
-
+<div align="center">
+<img src="/Lab01/Imagenes/Pin_out_SN74LS00N.jpg">
+</div>
 Se uso el siguiente circuito en la protoboard
 
-<img src="/Lab01/Imagenes/Circuito_en_la_protoboard.jpg" alt="Alt text" width = "200px" height = "200px"/>
-
+<div align="center">
+<img src="/Lab01/Imagenes/Circuito_en_la_protoboard.jpg" alt="Alt text" width = "auto" height = "200px"/>
+</div>
 ## Resultados
 
 A continuacion se listan las diferentes especificaciones tecnicas de la compuerta
@@ -27,5 +29,8 @@ A continuacion se listan las diferentes especificaciones tecnicas de la compuert
 * I<sub>OL</sub> ha de ser maximo 8 mA
 * El V<sub>OH</sub> el minimo es de 2.5V y el TYP de 3.4V
 * El V<sub>OL</sub> debe ser maximo de 0.4 V
-* La I<sub>I</sub> debe ser de maximo 1 mA
-* I<sub>IH</sub> debe ser de maximo 40 $\mu$ A
+* La I<sub>I</sub> debe ser de maximo 0.1 mA
+* I<sub>IH</sub> debe ser de maximo 20 $\mu$ A
+* I<sub>IL</sub> debe ser de minimo -0.4 mA
+* I<sub>OS</sub> debe estar entre -20 mA y -100 mA
+ 
