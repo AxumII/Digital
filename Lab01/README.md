@@ -14,13 +14,6 @@ Para esta practica se uso la  compuerta SN74LS00N, Osciloscopio , Generador de s
 <img src="/Lab01/Imagenes/Pin_out_SN74LS00N.jpg" alt ="pin out" width = "200px" height = "auto"/>
 </div>
 
-<dev align="center">
-    <figure>
-    <img src="/Lab01/Imagenes/Pin_out_SN74LS00N.jpg" alt ="pin out" width = "200px" height = "auto"/><figcaption> Configuracion de pines SN74LS00N</figcaption>
-    </figure>
-</dev>
-
-
 Se uso el siguiente circuito en la protoboard
 
 <div align="center">
@@ -30,6 +23,7 @@ Se uso el siguiente circuito en la protoboard
 ## Resultados
 
 ### primera parte
+
 A continuacion se listan las diferentes especificaciones tecnicas de la compuerta
 
 * El V<sub>CC</sub> Para la compuerta es de minimo 4.75 V y maximo 5.25 V
@@ -44,10 +38,22 @@ A continuacion se listan las diferentes especificaciones tecnicas de la compuert
 * I<sub>IL</sub> debe ser de minimo -0.4 mA
 * I<sub>OS</sub> debe estar entre -20 mA y -100 mA
  
-La funcion de transferencia obtenida de la compuerta cuando se le aplica una onda triangular de 100 Hz 
+La funcion de transferencia obtenida de la compuerta cuando se le aplica una onda triangular de 100 Hz es:
 
 <div align="center">
 <img src="/Lab01/Imagenes/Transferencia100Hz.jpg" width = "300px" height="auto">
 </div>
 
+<div align="center">
+<img src="/Lab01/Imagenes/FuncionTransferencia100Hz2.jpg" width="300px" height="auto">
+</div>
 
+La funcion de transferencia obtenida de la compuerta al aplicarle una onda cuadrada de frecuencia de 1 kHz es:
+
+<div align="center">
+<img src="/Lab01/Imagenes/1kHz_FT_con_carga.jpg" width = "300px" height = "auto">
+</div>
+
+<div align="center">
+<img src="/Lab01/Imagenes/Transferencia1kHz_sin_carga.jpg" width = "300px" height = "auto">
+</div>
