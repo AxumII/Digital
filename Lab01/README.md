@@ -24,7 +24,7 @@ Se uso el siguiente circuito en la protoboard
 
 ### primera parte
 
-A continuacion se listan las diferentes especificaciones tecnicas de la compuerta
+1. A continuacion se listan las diferentes especificaciones tecnicas de la compuerta
 
 * El V<sub>CC</sub> Para la compuerta es de minimo 4.75 V y maximo 5.25 V
 * El V<sub>IH</sub> debe ser de minimo 2 V
@@ -38,7 +38,7 @@ A continuacion se listan las diferentes especificaciones tecnicas de la compuert
 * I<sub>IL</sub> debe ser de minimo -0.4 mA
 * I<sub>OS</sub> debe estar entre -20 mA y -100 mA
  
-La funcion de transferencia obtenida de la compuerta cuando se le aplica una onda triangular de 100 Hz es:
+2. La funcion de transferencia obtenida de la compuerta cuando se le aplica una onda triangular de 100 Hz es:
 
 <div align="center">
 <img src="/Lab01/Imagenes/Transferencia100Hz.jpg" width = "300px" height="auto">
@@ -48,7 +48,7 @@ La funcion de transferencia obtenida de la compuerta cuando se le aplica una ond
 <img src="/Lab01/Imagenes/FuncionTransferencia100Hz2.jpg" width="300px" height="auto">
 </div>
 
-La funcion de transferencia obtenida de la compuerta al aplicarle una onda cuadrada de frecuencia de 1 kHz es:
+3. La funcion de transferencia obtenida de la compuerta al aplicarle una onda cuadrada de frecuencia de 1 kHz es:
 
 <div align="center">
 <img src="/Lab01/Imagenes/1kHz_FT_con_carga.jpg" width = "300px" height = "auto">
@@ -57,3 +57,25 @@ La funcion de transferencia obtenida de la compuerta al aplicarle una onda cuadr
 <div align="center">
 <img src="/Lab01/Imagenes/Transferencia1kHz_sin_carga.jpg" width = "300px" height = "auto">
 </div>
+
+4. Se obtuvo:
+
+* Corriente en 2 entradas
+
+<div align="center">
+<img src="/Lab01/Imagenes/Iin_2_compuertas.jpg" width = "300px" height = "auto">
+</div>
+
+* Corriente en 1 entrada
+
+<div align="center">
+<img src="/Lab01/Imagenes/Iin_1_compuerta.jpg" width = "300px" height = "auto">
+</div>
+
+* Corriente de salida en alto:
+
+<div align="center">
+<img src="/Lab01/Imagenes/Iout_High.jpg" width = "300px" height = "auto">
+</div>
+
+* Corriente de salida en bajo
