@@ -211,7 +211,7 @@ Se uso el siguiente circuito en la protoboard
             
             + Tiempo de bajada:
             <div align="center">
-            <img src="/Lab01/Imagenes/100kHz_tb_sin.jpgg" width = "auto" height = "300px">
+            <img src="/Lab01/Imagenes/100kHz_tb_sin.jpg" width = "auto" height = "300px">
             </div> 
 
         - Con carga: 
@@ -231,7 +231,7 @@ Se uso el siguiente circuito en la protoboard
             <img src="/Lab01/Imagenes/100kHz_tb_con.jpg" width = "auto" height = "300px">
             </div> 
 
-    * Onda cuadraca a 1 MHz:
+    * Onda cuadrada a 1 MHz:
 
         - Sin carga: 
 
