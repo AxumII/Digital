@@ -89,7 +89,181 @@ Se uso el siguiente circuito en la protoboard
 6. Se obtuvo lo siguiente:
 
     * Onda cuadrada a 100 Hz: 
-        + Corriente:
-        <div align="center">
-        <img src="/Lab01/Imagenes/I_100Hz.jpg" width = "300px" height = "auto">
-        </div>
+        - Sin carga:
+
+            + Corriente:
+            <div align="center">
+            <img src="/Lab01/Imagenes/I_100Hz.jpg" width = "300px" height = "auto">
+            </div>
+
+            + Tiempo de subida:
+            <div align="center">
+            <img src="/Lab01/Imagenes/100Hzrise_sincarga.jpg" width = "auto" height = "300px">
+            </div>
+            
+            + Tiempo de bajada:
+            <div align="center">
+            <img src="/Lab01/Imagenes/100Hz_down_sin_carga.jpg" width = "auto" height = "300px">
+            </div> 
+
+        - Con carga: 
+
+            + Corriente:
+            <div align="center">
+            <img src="/Lab01/Imagenes/I_100Hz_con_carga.jpg" width = "300px" height = "auto">
+            </div>
+
+            + Tiempo de subida:
+            <div align="center">
+            <img src="/Lab01/Imagenes/100Hz_trise_con_carga.jpg" width = "auto" height = "300px">
+            </div>
+            
+            + Tiempo de bajada:
+            <div align="center">
+            <img src="/Lab01/Imagenes/100Hz_tdown_con_carga.jpg" width = "auto" height = "300px">
+            </div> 
+
+    * Onda cuadrada a 1kHz:
+
+        - Sin carga:
+
+            + Corriente:
+            <div align="center">
+            <img src="/Lab01/Imagenes/1kHz_I_sin_carga.jpg" width = "300px" height = "auto">
+            </div>
+
+            + Tiempo de subida:
+            <div align="center">
+            <img src="/Lab01/Imagenes/1kHz_ts_sin_carga.jpg" width = "auto" height = "300px">
+            </div>
+            
+            + Tiempo de bajada:
+            <div align="center">
+            <img src="/Lab01/Imagenes/1kHz_tb_sin_carga.jpg" width = "auto" height = "300px">
+            </div> 
+
+        - Con carga:
+
+            + Corriente:
+            <div align="center">
+            <img src="/Lab01/Imagenes/1kHz_I_con.jpg" width = "300px" height = "auto">
+            </div>
+
+            + Tiempo de subida:
+            <div align="center">
+            <img src="/Lab01/Imagenes/1kHz_ts_con.jpg" width = "auto" height = "300px">
+            </div>
+            
+            + Tiempo de bajada:
+            <div align="center">
+            <img src="/Lab01/Imagenes/1kHz_tb_con.jpg" width = "auto" height = "300px">
+            </div> 
+
+    * Señal cuadrada a 10 kHz:
+
+        - Sin carga:
+
+            + Corriente:
+            <div align="center">
+            <img src="/Lab01/Imagenes/10kHz_I_sin.jpg" width = "300px" height = "auto">
+            </div>
+
+            + Tiempo de subida:
+            <div align="center">
+            <img src="/Lab01/Imagenes/10kHz_ts_sin.jpg" width = "auto" height = "300px">
+            </div>
+            
+            + Tiempo de bajada:
+            <div align="center">
+            <img src="/Lab01/Imagenes/10kHz_Tb_sin.jpg" width = "auto" height = "300px">
+            </div> 
+
+        - Con carga:
+
+            + Corriente:
+            <div align="center">
+            <img src="/Lab01/Imagenes/10kHz_I_con.jpg" width = "300px" height = "auto">
+            </div>
+
+            + Tiempo de subida:
+            <div align="center">
+            <img src="/Lab01/Imagenes/10kHz_ts_con.jpg" width = "auto" height = "300px">
+            </div>
+            
+            + Tiempo de bajada:
+            <div align="center">
+            <img src="/Lab01/Imagenes/10kHz_tb_con.jpg" width = "auto" height = "300px">
+            </div> 
+
+    * Señal cuadrada a 100 kHz:
+
+        - Sin carga:
+
+            + Corriente:
+            <div align="center">
+            <img src="/Lab01/Imagenes/100kHz_I_sin.jpg" width = "300px" height = "auto">
+            </div>
+
+            + Tiempo de subida:
+            <div align="center">
+            <img src="/Lab01/Imagenes/100kHz_ts_sin.jpg" width = "auto" height = "300px">
+            </div>
+            
+            + Tiempo de bajada:
+            <div align="center">
+            <img src="/Lab01/Imagenes/100kHz_tb_sin.jpgg" width = "auto" height = "300px">
+            </div> 
+
+        - Con carga: 
+
+            + Corriente:
+            <div align="center">
+            <img src="/Lab01/Imagenes/100kHz_I_con.jpg" width = "300px" height = "auto">
+            </div>
+
+            + Tiempo de subida:
+            <div align="center">
+            <img src="/Lab01/Imagenes/100kHz_ts_con.jpg" width = "auto" height = "300px">
+            </div>
+            
+            + Tiempo de bajada:
+            <div align="center">
+            <img src="/Lab01/Imagenes/100kHz_tb_con.jpg" width = "auto" height = "300px">
+            </div> 
+
+    * Onda cuadraca a 1 MHz:
+
+        - Sin carga: 
+
+            + Corriente:
+            <div align="center">
+            <img src="/Lab01/Imagenes/1MHz_I_sin.jpg" width = "300px" height = "auto">
+            </div>
+
+            + Tiempo de subida:
+            <div align="center">
+            <img src="/Lab01/Imagenes/1MHz_ts_sin.jpg" width = "auto" height = "300px">
+            </div>
+            
+            + Tiempo de bajada:
+            <div align="center">
+            <img src="/Lab01/Imagenes/1MHz_tb_sin.jpg" width = "auto" height = "300px">
+            </div> 
+        
+        - Con carga:
+
+            + Corriente:
+            <div align="center">
+            <img src="/Lab01/Imagenes/1MHz_I_con.jpg" width = "300px" height = "auto">
+            </div>
+
+            + Tiempo de subida:
+            <div align="center">
+            <img src="/Lab01/Imagenes/1MHz_ts_con.jpg" width = "auto" height = "300px">
+            </div>
+            
+            + Tiempo de bajada:
+            <div align="center">
+            <img src="/Lab01/Imagenes/1MHz_tb_con.jpg" width = "auto" height = "300px">
+            </div> 
+
