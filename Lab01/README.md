@@ -26,17 +26,17 @@ Se uso el siguiente circuito en la protoboard
 
 1. A continuacion se listan las diferentes especificaciones tecnicas de la compuerta
 
-* El V<sub>CC</sub> Para la compuerta es de minimo 4.75 V y maximo 5.25 V
-* El V<sub>IH</sub> debe ser de minimo 2 V
-* El V<sub>IL</sub> debe ser de maximo 0.8 V
-* La corriente de salida en alto (I<sub>OH</sub>) de ser de -0.4 mA
-* I<sub>OL</sub> ha de ser maximo 8 mA
-* El V<sub>OH</sub> el minimo es de 2.5V y el TYP de 3.4V
-* El V<sub>OL</sub> debe ser maximo de 0.4 V
-* La I<sub>I</sub> debe ser de maximo 0.1 mA
-* I<sub>IH</sub> debe ser de maximo 20 $\mu$ A
-* I<sub>IL</sub> debe ser de minimo -0.4 mA
-* I<sub>OS</sub> debe estar entre -20 mA y -100 mA
+    * El V<sub>CC</sub> Para la compuerta es de minimo 4.75 V y maximo 5.25 V
+    * El V<sub>IH</sub> debe ser de minimo 2 V
+    * El V<sub>IL</sub> debe ser de maximo 0.8 V
+    * La corriente de salida en alto (I<sub>OH</sub>) de ser de -0.4 mA
+    * I<sub>OL</sub> ha de ser maximo 8 mA
+    * El V<sub>OH</sub> el minimo es de 2.5V y el TYP de 3.4V
+    * El V<sub>OL</sub> debe ser maximo de 0.4 V
+    * La I<sub>I</sub> debe ser de maximo 0.1 mA
+    * I<sub>IH</sub> debe ser de maximo 20 $\mu$ A
+    * I<sub>IL</sub> debe ser de minimo -0.4 mA
+    * I<sub>OS</sub> debe estar entre -20 mA y -100 mA
  
 2. La funcion de transferencia obtenida de la compuerta cuando se le aplica una onda triangular de 100 Hz es:
 
@@ -60,22 +60,27 @@ Se uso el siguiente circuito en la protoboard
 
 4. Se obtuvo:
 
-* Corriente en 2 entradas
+    * Corriente en 2 entradas
 
 <div align="center">
 <img src="/Lab01/Imagenes/Iin_2_compuertas.jpg" width = "300px" height = "auto">
 </div>
 
-* Corriente en 1 entrada
+    * Corriente en 1 entrada
 
 <div align="center">
 <img src="/Lab01/Imagenes/Iin_1_compuerta.jpg" width = "300px" height = "auto">
 </div>
 
-* Corriente de salida en alto:
+    * Corriente de salida en alto:
 
 <div align="center">
 <img src="/Lab01/Imagenes/Iout_High.jpg" width = "300px" height = "auto">
 </div>
 
-* Corriente de salida en bajo
+    * Corriente de salida en bajo
+
+<div align="center">
+<img src="/Lab01/Imagenes/Iout_low.jpg" width = "300px" height = "auto">
+</div>
+
