@@ -11,15 +11,23 @@
 Para esta practica se uso la  compuerta SN74LS00N, Osciloscopio , Generador de señales, un multimetro y una fuente de alimentacion DC a 5V para alimentar la compuerta.
 
 <div align="center">
-<img src="/Lab01/Imagenes/Pin_out_SN74LS00N.jpg" alt ="pin out" width = "200px" height = "auto">
+<img src="/Lab01/Imagenes/Pin_out_SN74LS00N.jpg" alt ="pin out" width = "200px" height = "auto"/>
 </div>
+
+<figure align="center">
+<img src="/Lab01/Imagenes/Pin_out_SN74LS00N.jpg" alt ="pin out" width = "200px" height = "auto"/>
+<figcaption> Configuracion de pines SN74LS00N</figcaption>
+</figure>
+
 Se uso el siguiente circuito en la protoboard
 
 <div align="center">
-<img src="/Lab01/Imagenes/Circuito_en_la_protoboard.jpg" alt="Alt text" width = "auto" height = "200px"/>
+<img src="/Lab01/Imagenes/Circuito_en_la_protoboard.jpg" alt="Montaje" width = "auto" height = "200px"/>
 </div>
+
 ## Resultados
 
+### primera parte
 A continuacion se listan las diferentes especificaciones tecnicas de la compuerta
 
 * El V<sub>CC</sub> Para la compuerta es de minimo 4.75 V y maximo 5.25 V
@@ -34,3 +42,10 @@ A continuacion se listan las diferentes especificaciones tecnicas de la compuert
 * I<sub>IL</sub> debe ser de minimo -0.4 mA
 * I<sub>OS</sub> debe estar entre -20 mA y -100 mA
  
+La funcion de transferencia obtenida de la compuerta cuando se le aplica una onda triangular de 100 Hz 
+
+<div align="center">
+<img src="/Lab01/Imagenes/Transferencia100Hz.jpg" width = "300px" height="auto">
+</div>
+
+
