@@ -19,6 +19,8 @@ Para esta practica se uso la  compuerta SN74LS00N, Osciloscopio , Generador de s
 <img src="/Lab01/Imagenes/Pin_out_SN74LS00N.jpg" alt ="pin out" width = "200px" height = "auto"/><figcaption> Configuracion de pines SN74LS00N</figcaption>
 </figure>
 </dev>
+
+
 Se uso el siguiente circuito en la protoboard
 
 <div align="center">
