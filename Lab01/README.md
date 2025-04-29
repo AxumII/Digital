@@ -63,25 +63,25 @@ Se uso el siguiente circuito en la protoboard
     * Corriente en 2 entradas
 
     <div align="center">
-    <img src="/Lab01/Imagenes/Iin_2_compuertas.jpg" width = "300px" height = "auto">
+    <img src="/Lab01/Imagenes/Iin_2_compuertas.jpg" width = "auto" height = "300px">
     </div>
 
     * Corriente en 1 entrada
 
     <div align="center">
-    <img src="/Lab01/Imagenes/Iin_1_compuerta.jpg" width = "300px" height = "auto">
+    <img src="/Lab01/Imagenes/Iin_1_compuerta.jpg" width = "auto" height = "300px">
     </div>
 
     * Corriente de salida en alto:
 
     <div align="center">
-    <img src="/Lab01/Imagenes/Iout_High.jpg" width = "300px" height = "auto">
+    <img src="/Lab01/Imagenes/Iout_High.jpg" width = "auto" height = "300px">
     </div>
 
     * Corriente de salida en bajo
 
     <div align="center">
-    <img src="/Lab01/Imagenes/Iout_low.jpg" width = "300px" height = "auto">
+    <img src="/Lab01/Imagenes/Iout_low.jpg" width = "auto" height = "300px">
     </div>
 
 5. 
