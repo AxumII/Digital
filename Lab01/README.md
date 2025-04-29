@@ -62,25 +62,34 @@ Se uso el siguiente circuito en la protoboard
 
     * Corriente en 2 entradas
 
-<div align="center">
-<img src="/Lab01/Imagenes/Iin_2_compuertas.jpg" width = "300px" height = "auto">
-</div>
+    <div align="center">
+    <img src="/Lab01/Imagenes/Iin_2_compuertas.jpg" width = "300px" height = "auto">
+    </div>
 
     * Corriente en 1 entrada
 
-<div align="center">
-<img src="/Lab01/Imagenes/Iin_1_compuerta.jpg" width = "300px" height = "auto">
-</div>
+    <div align="center">
+    <img src="/Lab01/Imagenes/Iin_1_compuerta.jpg" width = "300px" height = "auto">
+    </div>
 
     * Corriente de salida en alto:
 
-<div align="center">
-<img src="/Lab01/Imagenes/Iout_High.jpg" width = "300px" height = "auto">
-</div>
+    <div align="center">
+    <img src="/Lab01/Imagenes/Iout_High.jpg" width = "300px" height = "auto">
+    </div>
 
     * Corriente de salida en bajo
 
-<div align="center">
-<img src="/Lab01/Imagenes/Iout_low.jpg" width = "300px" height = "auto">
-</div>
+    <div align="center">
+    <img src="/Lab01/Imagenes/Iout_low.jpg" width = "300px" height = "auto">
+    </div>
 
+5. 
+
+6. Se obtuvo lo siguiente:
+
+    * Onda cuadrada a 100 Hz: 
+        + Corriente:
+        <div align="center">
+        <img src="/Lab01/Imagenes/I_100Hz.jpg" width = "300px" height = "auto">
+        </div>
