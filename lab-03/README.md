@@ -33,9 +33,9 @@ Esto permite distinguir de manera sencilla la relación entre dos valores binari
 Se realizaron pruebas variando las entradas para obtener todas las posibles salidas.  
 | Caso  | Imagen                                    |
 |-------|-------------------------------------------|
-| A = B | ![A = B](Imagenes/comparador_AB_igual.jpg) |
-| A > B | ![A > B](Imagenes/comparador_A_mayor_B.jpg) |
-| A < B | ![A < B](Imagenes/comparador_A_menor_B.jpg) |
+| A = B | ![A = B](imagenes/comparador_AB_igual.jpg) |
+| A > B | ![A > B](imagenes/comparador_A_mayor_B.jpg) |
+| A < B | ![A < B](imagenes/comparador_A_menor_B.jpg) |
 
 ---
 
@@ -54,9 +54,9 @@ Es la base de cualquier sumador binario.
 Pruebas para ambos posibles casos en los que la suma es 1:
 | Entradas   | Imagen                                 |
 |------------|----------------------------------------|
-| A=0, B=0   | ![A=0, B=0](Imagenes/half_adder_00.jpg) |
-| A=1, B=0 o A=0, B=1 | ![A=1 o B=1](Imagenes/half_adder_01.jpg) |
-| A=1, B=1   | ![A=1, B=1](Imagenes/half_adder_11.jpg) |
+| A=0, B=0   | ![A=0, B=0](imagenes/half_adder_00.jpg) |
+| A=1, B=0 o A=0, B=1 | ![A=1 o B=1](imagenes/half_adder_01.jpg) |
+| A=1, B=1   | ![A=1, B=1](imagenes/half_adder_11.jpg) |
 
 ---
 
@@ -73,10 +73,10 @@ Se muestran ejemplos de funcionamiento con distintas combinaciones de entrada:
 
 | A | B | Cin | Imagen                                  |
 |---|---|-----|-----------------------------------------|
-| 0 | 0 | 0   | ![000](Imagenes/full_adder_000.jpg)     |
-| 0 | 0 | 1   | ![001](Imagenes/full_adder_001.jpg)     |
-| 0 | 1 | 0   | ![010](Imagenes/full_adder_01X.jpg)     |
-| 1 | 1 | 1   | ![111](Imagenes/full_adder_111.jpg)     |
+| 0 | 0 | 0   | ![000](imagenes/full_adder_000.jpg)     |
+| 0 | 0 | 1   | ![001](imagenes/full_adder_001.jpg)     |
+| 0 | 1 | 0   | ![010](imagenes/full_adder_01X.jpg)     |
+| 1 | 1 | 1   | ![111](imagenes/full_adder_111.jpg)     |
 
 ---
 
@@ -91,7 +91,7 @@ Se implementó y midió tanto con compuertas TTL físicas (hardware) como con la
 **Evidencia experimental:**  
 | Implementación       | Imagen                                 |
 |---------------------|----------------------------------------|
-| TTL (osciloscopio)  | ![TTL](Imagenes/inversor_anillo_ttl.jpg) |
+| TTL (osciloscopio)  | ![TTL](imagenes/inversor_anillo_ttl.jpg) |
 
 ---
 
