@@ -39,8 +39,8 @@ Implementación en FPGA (Verilog) de los siguientes módulos y evidencia de labo
 
 | Entradas     | Imagen                               |
 |--------------|--------------------------------------|
-| A=0, B=0     | ![A=0, B=0](Imagenes/half_adder_00.jpg) |
-| A=1/B=1      | ![A=1 o B=1](Imagenes/half_adder_01.jpg) |
+| A=0, B=0     | ![A=0, B=0](imagenes/half_adder_00.jpg) |
+| A=1/B=1      | ![A=1 o B=1](imagenes/half_adder_01.jpg) |
 
 ---
 
@@ -50,10 +50,10 @@ Implementación en FPGA (Verilog) de los siguientes módulos y evidencia de labo
 
 | A | B | Cin | Imagen                                  |
 |---|---|-----|-----------------------------------------|
-| 0 | 0 | 0   | ![000](Imagenes/full_adder_000.jpg)     |
-| 0 | 0 | 1   | ![001](Imagenes/full_adder_001.jpg)     |
-| 0 | 1 | 0   | ![010](Imagenes/full_adder_01X.jpg)     |
-| 1 | 1 | 1   | ![111](Imagenes/full_adder_111.jpg)     |
+| 0 | 0 | 0   | ![000](imagenes/full_adder_000.jpg)     |
+| 0 | 0 | 1   | ![001](imagenes/full_adder_001.jpg)     |
+| 0 | 1 | 0   | ![010](imagenes/full_adder_01X.jpg)     |
+| 1 | 1 | 1   | ![111](imagenes/full_adder_111.jpg)     |
 
 ---
 
@@ -63,6 +63,6 @@ Implementación en FPGA (Verilog) de los siguientes módulos y evidencia de labo
 
 | Implementación       | Imagen                                 |
 |---------------------|----------------------------------------|
-| TTL (osciloscopio)  | ![TTL](Imagenes/inversor_anillo_ttl.jpg) |
+| TTL (osciloscopio)  | ![TTL](imagenes/inversor_anillo_ttl.jpg) |
 
 ---
