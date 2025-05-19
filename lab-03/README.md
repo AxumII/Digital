@@ -41,6 +41,7 @@ Implementación en FPGA (Verilog) de los siguientes módulos y evidencia de labo
 |--------------|--------------------------------------|
 | A=0, B=0     | ![A=0, B=0](imagenes/half_adder_00.jpg) |
 | A=1/B=1      | ![A=1 o B=1](imagenes/half_adder_01.jpg) |
+| A=1, B=1      | ![A=1 o B=1](imagenes/half_adder_11.jpg) |
 
 ---
 
