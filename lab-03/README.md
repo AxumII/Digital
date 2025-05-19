@@ -27,9 +27,9 @@ Implementación en FPGA (Verilog) de los siguientes módulos y evidencia de labo
 
 | Caso  | Imagen                                    |
 |-------|-------------------------------------------|
-| A = B | ![A = B](Imagenes/comparador_AB_igual.jpg) |
-| A > B | ![A > B](Imagenes/comparador_A_mayor_B.jpg) |
-| A < B | ![A < B](Imagenes/comparador_A_menor_B.jpg) |
+| A = B | ![A = B](imagenes/comparador_AB_igual.jpg) |
+| A > B | ![A > B](imagenes/comparador_A_mayor_B.jpg) |
+| A < B | ![A < B](imagenes/comparador_A_menor_B.jpg) |
 
 ---
 
