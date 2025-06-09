@@ -6,6 +6,8 @@
 
 ### Juan Angel Pinzon Lopez
 
+### Erick Hosbany Calvache Pacheco
+
 ## metodologia
 
 Para esta practica se uso la  compuerta SN74LS00N, Osciloscopio , Generador de señales, un multimetro y una fuente de alimentacion DC a 5V para alimentar la compuerta.
