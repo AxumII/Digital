@@ -33,7 +33,7 @@ Se observó el comportamiento de la entrada al dejarla desconectada, con un cabl
 ### 2.2 Función de Transferencia
 Se obtuvo con una alimentación de 5V, y se visualizó mediante un osciloscopio:
 
-![Función de Transferencia CD4011B](lab-02/imagenes/transferencia_cd4011b.png)
+![Función de Transferencia CD4011B](imagenes/transferencia_cd4011b.png)
 
 - **CH1 (amarillo)**: Señal de entrada, T = 1ms, F = 1kHz, Vpp = 4.96V
 - **CH2 (azul)**: Señal de salida, Vpp = 5.04V, Vr = 2.47V
@@ -58,7 +58,7 @@ Se usaron ondas cuadradas a distintas frecuencias y se midieron los siguientes p
 
 ### 2.5 Potencia Consumida a Diferentes Frecuencias
 
-![Potencia CD4011B](lab-02/imagenes/potencia_cd4011b.png)
+![Potencia CD4011B](imagenes/potencia_cd4011b.png)
 
 | Frecuencia [Hz] | Tsubida [ns] | Tbajada [ns] | Tretardo [ns] | Corriente [A] | Potencia [W] |
 |-----------------|---------------|---------------|----------------|----------------|----------------|
@@ -76,7 +76,7 @@ La corriente disminuye con la frecuencia, lo cual es coherente con el comportami
 
 ### 3.1 Función de Transferencia
 
-![Transferencia HF4001](lab-02/imagenes/transferencia_hf4001.png)
+![Transferencia HF4001](imagenes/transferencia_hf4001.png)
 
 - **Entrada (CH1)**: Escala 2.00V
 - **Salida (CH2)**: Vpp = 5.44V, periodo = 1.00ms, Vmedio = 2.72V
@@ -84,14 +84,14 @@ La corriente disminuye con la frecuencia, lo cual es coherente con el comportami
 
 ### 3.2 Señales de Entrada y Salida
 
-![Señales HF4001](lab-02/imagenes/señales_hf4001.png)
+![Señales HF4001](imagenes/señales_hf4001.png)
 
 - CH1 (Entrada): Escala 2.00V
 - CH2 (Salida): Mismo comportamiento que la función de transferencia
 
 ### 3.3 Potencia Consumida
 
-![Potencia HF4001](lab-02/imagenes/potencia_hf4001.png)
+![Potencia HF4001](imagenes/potencia_hf4001.png)
 
 | Frecuencia [Hz] | Tensión [V] | Corriente [A] | Potencia [W] |
 |-----------------|-------------|----------------|----------------|
