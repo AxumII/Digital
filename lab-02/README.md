@@ -90,7 +90,8 @@ La corriente disminuye con la frecuencia, lo cual es coherente con el comportami
 - CH2 (Salida): Mismo comportamiento que la función de transferencia
 
 ### 3.3 Potencia Consumida
-
+La tabla a continuacion muestra los datos de potencia consumida y corriente a diferentes frecuencias
+para la compuerta HF4001.
 ![Potencia HF4001](imagenes/potencia_hf4001.png)
 
 | Frecuencia [Hz] | Tensión [V] | Corriente [A] | Potencia [W] |
