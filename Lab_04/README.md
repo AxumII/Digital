@@ -25,48 +25,11 @@
 
 ---
 
-## Introducción
-
-En la electrónica digital, el *enrutamiento de señales* mediante componentes combinacionales es fundamental para el diseño de sistemas complejos. Entre los bloques más representativos se encuentran:
-
-- *Decodificador*: traduce un valor binario en una única línea de salida activa.
-- *Demultiplexor* (DEMUX): reenvía una señal de entrada hacia una de varias salidas según bits de control.
-- *Multiplexor* (MUX): realiza la operación inversa, seleccionando una de varias señales de entrada para presentarla en una única salida.
-
-Este proyecto documenta el diseño, simulación e implementación en FPGA de:
-
-> *Decodificador 2 ➜ 4, **DEMUX 1 ➜ 4 con señales diferenciadas* y *MUX 4 ➜ 1 con salidas constantes y pulsantes*.
-
-Se incluyen tablas de verdad, diagramas, resultados experimentales e indicaciones de cómo acceder al código fuente correspondiente a cada módulo.
-
----
-
-## Objetivos
-
-- *Diseñar* en Verilog un decodificador 2 ➜ 4, un demultiplexor 1 ➜ 4 y un multiplexor 4 ➜ 1.
-- *Simular* cada módulo para verificar su lógica antes de la síntesis.
-- *Implementar* los diseños en una FPGA Cyclone IV y verificar su funcionamiento físico con switches y LEDs.
-- *Analizar* diferencias prácticas entre decodificación, demultiplexación y multiplexación.
-
----
-
-## Herramientas y Materiales
-
-| Recurso        | Descripción                                       |
-|----------------|---------------------------------------------------|
-| FPGA           | Tarjeta Cyclone IV EP4CE6E22C8N @ 50 MHz           |
-| Software       | Quartus II 13.1 + ModelSim Altera Edition         |
-| Lenguaje HDL   | Verilog                                           |
-| Periféricos    | 4 switches DIP, 8 LEDs, reloj interno de 50 MHz    |
-| Instrumentación| Osciloscopio digital (verificación de frecuencias)|
-
----
 
 ## Metodología
 
 1. *Diseño lógico* a partir de tablas de verdad y diagramas.
-2. *Codificación HDL* para cada módulo en archivos separados (decoder2x4.v, demux_signals_4.v, mux4to1_special.v).
-3. *Simulación* con bancos de prueba en ModelSim asegurando la corrección funcional.
+2. *Codificación en verilog HDL* para cada módulo en archivos separados (decoder2x4.v, demux_signals_4.v, mux4to1_special.v).
 4. *Síntesis* y *asignación de pines* en Quartus II.
 5. *Programación de la FPGA* y *pruebas físicas* usando switches y LEDs.
 6. *Documentación* en formato Markdown (este README) con evidencias gráficas y análisis.
@@ -92,7 +55,7 @@ Convierte un código binario de 2 bits en una única línea de salida activa (u
 
 #### Código Fuente
 
-> El código completo se encuentra en **decoder2x4.v** dentro de la carpeta raíz del repositorio.
+> El código completo se encuentra en **decoder2x4.v** .
 
 #### Evidencia Fotográfica
 
@@ -117,11 +80,11 @@ El DEMUX direcciona la entrada D hacia una de cuatro salidas según S1S0. Cada s
 
 #### Código Fuente
 
-> Consulta **demux_signals_4.v** para el listado Verilog detallado que genera los pulsos y distribuye las señales.
+> En **demux_signals_4.v** se encuentra el codigo usado.
 
 #### Evidencia Fotográfica
 
-![DEMUX – Salidas simultáneas](imagenes/demux_leds.jpg)
+![DEMUX – Salidas simultáneas](imagenes/Demux.jpg)
 
 ---
 
@@ -138,11 +101,11 @@ Selecciona una de cuatro señales de entrada para presentarla en la salida out s
 | 10    | Pulso 10 Hz       | Parpadeo rápido          |
 | 11    | 1 constante       | LED encendido            |
 
-> Nota: La placa invierte el orden físico de los switches; ten en cuenta la polaridad al interpretar sel.
+> Nota: La placa invierte el orden físico de los switches.
 
 #### Código Fuente
 
-> El listado completo está disponible en **mux4to1_special.v**. Incluye generación de los pulsos 1 Hz y 10 Hz mediante divisores de frecuencia.
+> El codigo completa esta en **mux4to1_special.v**. Incluye generación de los pulsos 1 Hz y 10 Hz mediante divisores de frecuencia.
 
 #### Evidencia Fotográfica
 
@@ -158,7 +121,6 @@ Selecciona una de cuatro señales de entrada para presentarla en la salida out s
 - *Decodificador* · Se verificó que para cada combinación de A1A0 se iluminó *exactamente un* LED de salida, corroborando la decodificación uno‑de‑cuatro.
 - *DEMUX* · Con D = 1, la señal se encaminó correctamente a la salida seleccionada (ch0..ch3). Al poner D = 0, todas las salidas permanecieron en bajo.
 - *MUX* · El LED de salida mostró los cuatro patrones esperados: apagado, parpadeo 1 Hz, parpadeo 10 Hz y encendido continuo.
-- *Frecuencias* · Con osciloscopio se midieron 0,99 Hz y 10,0 Hz para las señales pulsantes, validando los divisores de reloj.
 
 ---
 
@@ -168,14 +130,3 @@ Selecciona una de cuatro señales de entrada para presentarla en la salida out s
 2. La prueba física evidenció la importancia de considerar *polaridades inversas* de switches y LEDs al mapear pines.
 3. El ejercicio reforzó la diferencia práctica entre *decodificar, **demultiplexar* y *multiplexar* señales.
 4. El uso de señales pulsantes demostró la interacción entre lógica combinacional y temporal dentro de un mismo diseño.
-5. La metodología empleada —diseño teórico, simulación, síntesis y validación— se confirma como un flujo robusto para proyectos digitales futuros.
-
----
-
-## Referencias
-
-1. M. M. Mano, Digital Design, 5.ª ed., Pearson, 2017.
-2. Intel FPGA, Cyclone IV EP4CE6E22C8N Device Handbook.
-3. Quartus II User Guide, Intel, 2023.
-
----
