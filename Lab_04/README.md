@@ -11,17 +11,14 @@
 
 ## Índice
 
-1. [Introducción](#introducción)
-2. [Objetivos](#objetivos)
-3. [Herramientas y Materiales](#herramientas-y-materiales)
-4. [Metodología](#metodología)
-5. [Desarrollo del Laboratorio](#desarrollo-del-laboratorio)
+
+1. [Metodología](#metodología)
+2. [Desarrollo del Laboratorio](#desarrollo-del-laboratorio)
    1. [Decodificador 2 ➜ 4](#decodificador-2-a-4)
    2. [Demultiplexor 1 ➜ 4](#demultiplexor-1-a-4)
    3. [Multiplexor 4 ➜ 1](#multiplexor-4-a-1)
-6. [Resultados Experimentales](#resultados-experimentales)
-7. [Conclusiones](#conclusiones)
-8. [Referencias](#referencias)
+3. [Resultados Experimentales](#resultados-experimentales)
+
 
 ---
 
