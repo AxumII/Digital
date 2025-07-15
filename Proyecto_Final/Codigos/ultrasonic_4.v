@@ -1,5 +1,5 @@
 //==========================================================================
-// Mod-level: Instancia cuatro sensores HC-SR04 y genera 4 LEDs
+// Mid-level: Instancia cuatro sensores HC-SR04 y genera 4 LEDs
 //==========================================================================
 
 module ultrasonic_4(
